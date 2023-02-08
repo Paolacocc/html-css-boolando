@@ -14,11 +14,13 @@ img{
     margin: 0 auto;
 }
 .flex{
+    
+}
+.row{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-}
-.row{
+    display: flex;
     width: calc(100% / 3 - (20px / 3));
     
 }
